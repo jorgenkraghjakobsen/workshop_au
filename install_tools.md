@@ -2,7 +2,7 @@ Tools and PDK for Open-source chip design AU - 8. May 2023
 ===============================================================================================
 
 Analog flow : Xschem , NGspice, Xyce (optional), Magic and Klayout
-
+``` 
   Xschem -
     Install from package repo (Debian based dist like Ubuntu) 
       sudo apt install xschem 
@@ -96,6 +96,7 @@ PDK :
   make
   sudo make install
   cd ../../  
+```
 =================================================================================================================
 Example mpw1 project : https://platform.efabless.com/projects/21
 
