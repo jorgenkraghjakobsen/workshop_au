@@ -22,7 +22,7 @@ Analog flow : Xschem , NGspice, Xyce (optional), Magic and Klayout
     Clone repo and compile (https://ngspice.sourceforge.io/download.html)
       mkdir -p ~/opentools && cd ~/opentools
       git clone git://git.code.sf.net/p/ngspice/ngspice 
-      sudo apt install bison flex xaw7-dev libxmu-dev libxft-dev fontconfig libxrender-dev libx11-dev libx11-6 libreadline-dev -y
+      sudo apt install bison flex libxaw7-dev libxmu-dev libxft-dev fontconfig libxrender-dev libx11-dev libx11-6 libreadline-dev -y
       ./compile_linux.sh 
       cd release ; sudo make install
   
@@ -51,12 +51,12 @@ Analog flow : Xschem , NGspice, Xyce (optional), Magic and Klayout
     XDG_SESSION_TYPE=x11 klayout
 
 
-Digital Flow : 
-  Frontend : Verilator, Yosys, GHDL, iverilog, GTKwave 
+  Digital Flow : 
+    Frontend : Verilator, Yosys, GHDL, iverilog, GTKwave 
     sudo apt install verilator yosys ghdl iverilog gtkwave 
 
   
-  Backend : OpenROAD 
+Backend : OpenROAD 
     clone from repo and compile (https://github.com/The-OpenROAD-Project/OpenROAD)
       mkdir -p ~/opentools && cd opentools 
       git clone --recursiv https://github.com/The-OpenROAD-Project/OpenROAD.git
