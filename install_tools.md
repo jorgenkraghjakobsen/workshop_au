@@ -52,9 +52,10 @@ Analog flow : Xschem , NGspice, Xyce (optional), Magic and Klayout
 
 
   Digital Flow : 
-    Frontend : Verilator, Yosys, GHDL, iverilog, GTKwave 
+    Frontend  : Verilator, Yosys, GHDL, iverilog, GTKwave 
     sudo apt install verilator yosys ghdl iverilog gtkwave 
-
+    Cocotb    : Python verification framework https://www.cocotb.org/
+    TerosHDL  : VScode extention for HDL development 
   
 Backend : OpenROAD 
     clone from repo and compile (https://github.com/The-OpenROAD-Project/OpenROAD)
@@ -65,6 +66,13 @@ Backend : OpenROAD
       cmake ..
       make -j`nproc`
       sudo make install
+    
+ OpenROAD flow scripts 
+    clone and install https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git
+
+
+
+
 
 PDK : 
   cd
